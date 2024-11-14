@@ -25,11 +25,11 @@ function dragElement(terrariumElement) {
         document.onpointermove = null;
     }
 }
-/*document.querySelectorAll(".plant").forEach((plant) => {
+/**/document.querySelectorAll(".plant").forEach((plant) => {
   plant.onpointerdown = function(){
     dragElement(plant);
   };
-});*/
+});
 dragElement(document.getElementById('plant1'));
 dragElement(document.getElementById('plant2'));
 dragElement(document.getElementById('plant3'));
