@@ -24,9 +24,12 @@ function dragElement(terrariumElement) {
         document.onpointermove = null;
     }
 }
+dragElement(document.getElementById('plant1'));
+dragElement(document.getElementById('plant2'));
 
-document.querySelectorAll(".plant").forEach((plant) => {
+/*document.querySelectorAll(".plant").forEach((plant) => {
   plant.onpointerdown = function(){
     dragElement(plant);
   };
 });
+/*
