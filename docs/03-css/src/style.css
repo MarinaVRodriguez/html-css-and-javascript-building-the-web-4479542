@@ -44,8 +44,8 @@ h1:hover {
 	color: hotpink;
 }
 
-/* 
-.container {
+
+/* .container {
 	background-color: #eee;
 	width: 15%;
 	top: 0px;
@@ -53,6 +53,7 @@ h1:hover {
 	height: 100%;
 	padding: 10px;
 }
+*/
 
 .jar-walls {
 	height: 80%;
@@ -98,7 +99,7 @@ h1:hover {
 	opacity: 0.7;
 	z-index: -1;
 }
-
+ 
 .jar-glossy-long {
 	width: 3%;
 	height: 20%;
@@ -117,4 +118,5 @@ h1:hover {
 	position: absolute;
 	bottom: 45%;
 	left: 5%;
-} */
+} 
+/**/
