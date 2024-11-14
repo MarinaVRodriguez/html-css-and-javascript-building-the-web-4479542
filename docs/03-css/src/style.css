@@ -8,10 +8,7 @@ h1 {
 	text-align: center;
 	font-family: "Lobster", cursive;
 }
-div{
-	background-color: lightgray;
-}
-/* 
+
 #left-container {
 	left: 0px;
 }
@@ -19,7 +16,7 @@ div{
 #right-container {
 	right: 0px;
 }
-
+/* 
 .container {
 	background-color: #eee;
 	width: 15%;
