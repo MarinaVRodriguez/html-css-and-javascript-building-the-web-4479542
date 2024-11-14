@@ -43,8 +43,9 @@ dragElement(document.getElementById('plant14'));
 
 
 
-/**/document.querySelectorAll(".plant").forEach((plant) => {
+/*document.querySelectorAll(".plant").forEach((plant) => {
   plant.onpointerdown = function(){
     dragElement(plant);
   };
 });
+*/
