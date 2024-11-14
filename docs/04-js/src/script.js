@@ -25,12 +25,12 @@ function dragElement(terrariumElement) {
         document.onpointermove = null;
     }
 }
-document.querySelectorAll(".plant").forEach((plant) => {
+/*document.querySelectorAll(".plant").forEach((plant) => {
   plant.onpointerdown = function(){
     dragElement(plant);
   };
-});
-/*dragElement(document.getElementById('plant1'));
+});*/
+dragElement(document.getElementById('plant1'));
 dragElement(document.getElementById('plant2'));
 dragElement(document.getElementById('plant3'));
 dragElement(document.getElementById('plant4'));
@@ -44,4 +44,3 @@ dragElement(document.getElementById('plant11'));
 dragElement(document.getElementById('plant12'));
 dragElement(document.getElementById('plant13'));
 dragElement(document.getElementById('plant14'));
-*/
