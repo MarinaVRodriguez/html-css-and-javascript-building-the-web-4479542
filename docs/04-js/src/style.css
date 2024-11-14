@@ -4,8 +4,12 @@ body {
 }
 
 h1 {
-	color: #3a241d;
+	color: #351d3a;
 	text-align: center;
+}
+
+h1:hover {
+	color: hotpink;
 }
 
 #left-container {
