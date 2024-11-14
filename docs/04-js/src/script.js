@@ -4,6 +4,7 @@ function dragElement(terrariumElement) {
 
     function pointerDrag(e) {
         e.preventDefault();
+        console.log(e);
         pos3 = e.clientX;
         pos4 = e.clientY;
         document.onpointermove = elementDrag;
@@ -24,12 +25,18 @@ function dragElement(terrariumElement) {
         document.onpointermove = null;
     }
 }
+
 dragElement(document.getElementById('plant1'));
 dragElement(document.getElementById('plant2'));
-
-/*document.querySelectorAll(".plant").forEach((plant) => {
-  plant.onpointerdown = function(){
-    dragElement(plant);
-  };
-});
-*/
+dragElement(document.getElementById('plant3'));
+dragElement(document.getElementById('plant4'));
+dragElement(document.getElementById('plant5'));
+dragElement(document.getElementById('plant6'));
+dragElement(document.getElementById('plant7'));
+dragElement(document.getElementById('plant8'));
+dragElement(document.getElementById('plant9'));
+dragElement(document.getElementById('plant10'));
+dragElement(document.getElementById('plant11'));
+dragElement(document.getElementById('plant12'));
+dragElement(document.getElementById('plant13'));
+dragElement(document.getElementById('plant14'));
