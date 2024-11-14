@@ -41,9 +41,10 @@ h1 {
 	max-height: 150%;
 	z-index: 2;
 }
-#left-container div img {
-	width: 50px;
+h1:hover {
+	color: hotpink;
 }
+
 /* 
 .container {
 	background-color: #eee;
