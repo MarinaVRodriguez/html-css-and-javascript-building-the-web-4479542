@@ -32,4 +32,4 @@ dragElement(document.getElementById('plant2'));
     dragElement(plant);
   };
 });
-/*
+*/
