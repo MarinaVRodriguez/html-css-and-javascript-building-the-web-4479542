@@ -41,6 +41,9 @@ h1 {
 	max-height: 150%;
 	z-index: 2;
 }
+div img {
+	width: 50px;
+}
 /* 
 .container {
 	background-color: #eee;
