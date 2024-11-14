@@ -45,7 +45,7 @@ h1:hover {
 }
 
 
-/* .container {
+/**/ .container {
 	background-color: #eee;
 	width: 15%;
 	top: 0px;
@@ -53,7 +53,7 @@ h1:hover {
 	height: 100%;
 	padding: 10px;
 }
-*/
+
 
 .jar-walls {
 	height: 80%;
