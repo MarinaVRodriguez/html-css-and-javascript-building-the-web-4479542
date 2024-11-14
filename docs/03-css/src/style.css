@@ -119,4 +119,16 @@ h1:hover {
 	bottom: 45%;
 	left: 5%;
 } 
-/**/
+/*Define the animation*/
+@keyframes slide-in {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+/*Apply the animation to an element */
+.plant {
+	animation: slide-in 2s ease-in-out;
+}
